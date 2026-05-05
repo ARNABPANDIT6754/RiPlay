@@ -62,7 +62,7 @@ private fun AppLogoText( navController: NavController ) {
 
 
     Text(
-        text = "ᴀʙʜɪ ᴍᴜsɪᴄ",
+        text = "𝐒𝐎𝐔𝐋 ᴍᴜsɪᴄ",
         style = typography().xxl.copy(
             color = colorPalette().text
         ),

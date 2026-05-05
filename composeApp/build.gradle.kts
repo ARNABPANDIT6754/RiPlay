@@ -435,14 +435,14 @@ android {
     buildTypes {
         debug {
             applicationIdSuffix = ".debug"
-            manifestPlaceholders["appName"] = "Abhi Music"
+            manifestPlaceholders["appName"] = "𝐒𝐎𝐔𝐋 Music"
         }
 
         release {
             vcsInfo.include = true
             isMinifyEnabled = true
             isShrinkResources = true
-            manifestPlaceholders["appName"] = "Abhi Music"
+            manifestPlaceholders["appName"] = "𝐒𝐎𝐔𝐋 Music"
             signingConfig = signingConfigs.getByName("release")
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
             multiDexKeepProguard = File("multidex-config.pro")

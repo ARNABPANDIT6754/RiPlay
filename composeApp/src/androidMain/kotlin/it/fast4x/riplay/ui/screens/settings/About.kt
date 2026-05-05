@@ -45,7 +45,7 @@ fun About() {
 
             // 🎵 Title
             BasicText(
-                text = "ABHI MUSIC 🎧",
+                text = "SOUL MUSIC 🎧",
                 style = typography().xxl
             )
 
@@ -83,7 +83,7 @@ fun About() {
                     Spacer(modifier = Modifier.height(12.dp))
 
                     BasicText(
-                        text = "Designed & Developed by Abhi ❤️",
+                        text = "Designed & Developed by SOUL ❤️",
                         style = typography().s.secondary,
                         modifier = Modifier.fillMaxWidth(),
                     )
